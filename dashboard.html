@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="./styles/dashboard.css">
+  <title>Todo App</title>
+</head>
+<body>
+
+  <h1>Todo App</h1>
+
+  <p id="welcome"></p>
+  <button class="l-o-btn" onclick="logout()">Logout</button>
+<hr>
+
+<h3>Create Task</h3>
+
+<input type="text" id="title" placeholder="Enter Task Title">
+<br><br>
+<textarea id="description" placeholder="Enter Task Description"></textarea>
+<br><br>
+<button id="createTodoBtn">Create Task</button>
+
+<hr>
+
+<h3>Your Tasks</h3>
+<div id="todoList"></div>
+
+<br>
+
+
+<script src="./script/dashboard.js"></script>
+
+</body>
+</html>
