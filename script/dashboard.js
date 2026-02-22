@@ -1,7 +1,7 @@
 const currentUser = JSON.parse(localStorage.getItem("currentUser"));
 
 if (!currentUser) {
-  window.location.href = "login.html";
+  window.location.href = "index.html";
 }
 document.getElementById("welcome").innerText =
   "Welcome, " + currentUser.email;
@@ -89,7 +89,7 @@ function deleteTodo(id) {
 
 function logout() {
   localStorage.removeItem("currentUser");
-  window.location.href = "login.html";
+  window.location.href = "index.html";
 }
 
 
